@@ -5,7 +5,7 @@
   box-shadow: 0px 0px 3px #ccc;
 }
 .center {
-  max-width: 1200px;
+  max-width: 1350px;
   padding: 0px 40px;
   height: 100%;
   margin: auto;
@@ -22,7 +22,7 @@
     color: #555;
     padding: 10px 15px;
     cursor: pointer;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.1S5s ease-in-out;
     &:hover {
       color: #ce2222;
     }
@@ -30,4 +30,16 @@
 }
 .loginButton {
   margin-left: 50px;
+}
+.accountImage {
+  margin-left: 35px;
+  & > img {
+    border-radius: 5px;
+    opacity: 85%;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    &:hover {
+      opacity: 55%;
+    }
+  }
 }
