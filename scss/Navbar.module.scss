@@ -1,0 +1,32 @@
+.container {
+  position: sticky;
+  top: 0;
+  height: 65px;
+  box-shadow: 0px 0px 3px #ccc;
+}
+.center {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: auto;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  & > div {
+    color: #555;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      color: #ce2222;
+    }
+  }
+}
+.loginButton {
+  margin-left: 50px;
+}
