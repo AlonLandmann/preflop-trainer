@@ -7,11 +7,11 @@ export default function Navbar() {
         <div className={css.logo}>
           <strong>preflop</strong>Trainer
         </div>
-        <div className={css.navLinks}>
+        <nav className={css.navLinks}>
           <div>User Guide</div>
           <div>Feedback</div>
           <div>Results</div>
-        </div>
+        </nav>
         <div className={css.loginButton}>
           <button>Login</button>
         </div>
